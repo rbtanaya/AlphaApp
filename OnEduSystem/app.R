@@ -109,7 +109,7 @@ tabPanel("Regression",
 server <- function(input, output, session) {
 
   
-    sys_data <- read.csv("/Users/tanaya/Documents/ShinyApp/OnEduSystem/online_edu_sys.csv")
+    sys_data <- read.csv("/OnEduSystem/online_edu_sys.csv")
     
     
     
