@@ -101,17 +101,10 @@ tabPanel("Regression",
 )
 
 
-
-
-
-
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
 
-  
     sys_data <- read.csv("/OnEduSystem/online_edu_sys.csv")
-    
-    
     
     # Plot histograms
     output$ageHistogram <- renderPlot({
